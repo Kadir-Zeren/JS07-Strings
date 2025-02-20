@@ -67,3 +67,24 @@ for (let i=0; i<=17;i++){
 }
 
 /* -------------------------------------------------------------------------- */
+//!                         STRING PROPERTY AND METHODS                       */
+/* -------------------------------------------------------------------------- */
+
+//! ************STRING PROPERTY (Özellikleri) ************
+// Property bir stringin kendi özelliğidir bir method(fonksiyon) değildir bu nedenle parantez açıp kapatmaya gerek yoktur
+
+//? length
+//? prototype
+
+console.log(course.length)
+
+for (let i=0; i<course.length;i++){
+    console.log(course[i])
+}
+console.clear()
+for (let i=course.length-1; i>=0;i--){
+    console.log(course[i])
+}
+const emoji="🎆"
+console.log(emoji.length)
+
