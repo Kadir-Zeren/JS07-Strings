@@ -45,3 +45,25 @@ console.log(`       Merhaba Cohort 16 sakinleri   🌹
 Gününüz güzel geçsin`)
 // console.clear()
 /* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+//!                        STRING YAPISI VE INDEXLEME                         */
+/* -------------------------------------------------------------------------- */
+
+let course="Clarusway"
+console.log(course)
+
+console.log(course[0])
+console.log(course[4])
+console.log(course[7])
+// Stringler,primitive bir tür olduğu için parça olarak değiştiremezsiniz
+// immutable - not mutable
+course[4]="a" // değişim yapılamaz
+course="Clarusway Bootcamp"
+console.log(course)
+
+for (let i=0; i<=17;i++){
+    console.log(course[i])
+}
+
+/* -------------------------------------------------------------------------- */
